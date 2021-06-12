@@ -1,0 +1,559 @@
+/**
+*  Template Name: Kelvin
+*  Template URL: https://templatemag.com/kelvin-bootstrap-resume-template/
+*  Author: TemplateMag.com
+*  License: https://templatemag.com/license/
+*/
+
+body {
+  background-color: #ffffff;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: rgb(48, 48, 48);
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #333;
+}
+
+/* Paragraph & Typographic */
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* Links */
+
+a {
+  color: #4faa96;
+  word-wrap: break-word;
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+
+a:before, a:after {
+  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+  transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*---------------------------------------------------
+3.1 Topbar
+---------------------------------------------------*/
+
+#section-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  overflow: visible;
+  font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#section-topbar a {
+  color: rgb(255, 255, 255);
+}
+
+#topbar-inner {
+  background: rgb(54, 52, 52);
+  line-height: 0;
+  text-align: center;
+}
+
+/*
+Top Bar
+
+By default, top navigation bar uses "fixed" position
+*/
+
+#section-topbar ul#nav {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid rgb(255, 254, 254);
+  /* For IE, the outcast */
+  zoom: 1;
+  *display: inline;
+}
+
+#section-topbar ul#nav>li {
+  display: block;
+  float: left;
+  padding: 0;
+}
+
+#section-topbar ul#nav a {
+  display: block;
+  font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+#section-topbar ul#nav a:focus {
+  background: rgb(255, 255, 255);
+  text-decoration: none;
+  border-left: 1px solid #111;
+}
+
+#section-topbar ul#nav a:hover {
+  background: #222;
+  text-decoration: none;
+  border-left: 1px solid #111;
+}
+
+#section-topbar ul#nav .active a {
+  background: #000000;
+  border-left: 1px solid #111;
+}
+
+#section-topbar ul#nav .active a:hover {
+  background: #44bbaa;
+}
+
+#section-topbar i {
+  font-size: 25px;
+}
+
+/*---------------------------------------------------
+SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header Wrap */
+
+#headerwrap {
+  background: url(../img/bcg.png) no-repeat center top;
+  margin-top: 60px;
+  padding-top: 140px;
+  text-align: center ;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 540px;
+  /*width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+#headerwrap h1 {
+  text-align: left;
+  font-size: 70px;
+  font-weight: 1000;
+  color: rgb(51, 51, 51);
+}
+
+#headerwrap h3 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+/* Intnro Wrap */
+
+#intro {
+  background: #2c3e50;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+}
+
+#intro h5, p {
+  color: white;
+}
+
+#intro i {
+  color: white;
+  font-size: 20px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
+
+#skillswrap {
+  background: #2c3e50;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+}
+
+#skillswrap h5, p {
+  color: white;
+}
+
+#footwrap {
+  background: #2f2f2f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#footwrap p {
+  color: white;
+}
+
+#footwrap h5 {
+  color: white;
+}
+
+#footwrap t {
+  font-weight: 700;
+}
+
+#footwrap i {
+  padding-right: 8px;
+  color: #1abc9c;
+}
+
+/* Copyright Wrap */
+
+#copyrights {
+  background: #222222;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+#copyrights p {
+  margin: 0 0 5px 0;
+}
+
+.credits {
+  color: #999;
+}
+
+/* Global Values */
+
+.desc {
+  padding-top: 50px;
+}
+
+.desc p {
+  color: #2f2f2f;
+}
+
+.desc t {
+  color: #34495e;
+  font-weight: 700;
+}
+
+.desc imp {
+  padding: 6px;
+  color: white;
+  background: #34495e;
+}
+
+.desc more {
+  color: #95a5a6;
+}
+
+sm {
+  font-size: 12px;
+}
+
+/* Contact Form */
+
+.contact-form label {
+  color: #999;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px 12px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  height: auto;
+}
+
+.contact-form .form-send {
+  text-align: center;
+}
+
+.contact-form .form-send button {
+  background: #44bbaa;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.contact-form .form-send button:hover {
+  background: #23c8b1;
+}
+
+.contact-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact-form .loading {
+  display: none;
+  color: #555;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.contact-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.contact-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.contact-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.skills-bar {
+  background: rgb(223, 217, 217);
+  text-align: center;
+  width: 500px;
+  border-radius: 10px;
+  padding: 15px 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    min-height: 400px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 1000%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.skills-bar p{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 30px 0;
+  color: rgb(51, 48, 48);
+  
+
+ 
+}
+.skill-bar{
+    background: rgb(194, 190, 190);
+    width: 400px;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-position: center center;
+    min-height: 400px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 1000%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.skill-bar .bar{
+  margin: 30px 0;
+}
+
+.skill-bar .bar:first-child{
+  margin-top: 0px;
+}
+.skill-bar .bar .info {
+  margin-bottom: 5px;
+}
+.skill-bar .bar .info span{
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0;
+  animation: showText1 0.5s 1s linear forwards ;
+
+}
+@keyframes showText1 {
+  100%{
+    opacity: 1;
+  }
+}
+.skill-bar .bar .progress-line {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: rgb(184, 185, 182);
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  box-shadow: inset 0px 1px 1px rgba(133, 131, 131, 0.05),
+                    0px 1px  rgba(255,255,255,0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.skill-bar .bar .progress-line span{
+  height:100% ;
+  width: 80%;
+  background: rgb(120, 120, 121);
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.skill-bar .bar .progress-line.desain span{
+  width : 90%;
+}
+.skill-bar .bar .progress-line.fotografi span{
+ width : 85%;
+}
+.skill-bar .bar .progress-line.videografi span{
+  width : 75%;
+}
+.skill-bar .bar .progress-line.programing span{
+  width : 50%;
+}
+.skill-bar .bar .progress-line.komputer span{
+  width :75%;
+}
+.skill-bar .bar .progress-line span::before{
+  position: absolute;
+  content: "";
+  right: 0;
+  top: -10px;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: rgb(224, 224, 224);
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards ;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+  
+}
+.skill-bar .bar .progress-line span::after{
+  position: absolute;
+  right: 0;
+  top: -26px;
+  color: #111;
+  font-size: 12px;
+  font-weight: 500;
+  background: rgb(112, 111, 111);
+  padding: 1px 8px;
+  border-radius: 3px;
+  
+}
+.skill-bar .bar .progress-line.desain span::after{
+  content: "90%";
+}
+.skill-bar .bar .progress-line.fotografi span::after{
+  content: "85%";
+}
+.skill-bar .bar .progress-line.videografi span::after{
+  content: "75%";
+}
+.skill-bar .bar .progress-line.programing span::after{
+  content: "50%";
+}
+.skill-bar .bar .progress-line.komputer span::after{
+  content: "75%";
+}
+
+
+.about img{
+  display: inline-block !important;
+  width: 20px;
+  height: 20px;
+}
